@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="libofei.shop.dao.OrderMapper" >
+
+    <resultMap id="orderResultMap" type="libofei.entity.order.Order">
+        <id column="id" property="id"/>
+        <result column="request_id" property="requestId"/>
+        <result column="user_id" property="userId"/>
+    </resultMap>
+
+    <insert id="insertUser" parameterType="libofei.entity.order.Order">
+        INSERT INTO user_order (request_id,user_id) VALUES (#{requestId},#{userId})
+    </insert>
+
+    <select id="findByUserId" resultMap="orderResultMap">
+        SELECT * FROM user_order WHERE user_id = #{userId}
+    </select>
+
+
+</mapper>

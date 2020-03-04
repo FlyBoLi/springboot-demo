@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="libofei.user.dao.UserMapper" >
+
+    <resultMap id="UserResultMap" type="libofei.entity.user.User">
+        <id column="id" property="id"/>
+        <result column="user_name" property="userName"/>
+        <result column="age" property="age"/>
+    </resultMap>
+
+    <insert id="insertUser" parameterType="libofei.entity.user.User" useGeneratedKeys="true" keyProperty="user.id" keyColumn="user.id">
+        INSERT INTO USER(user_name, AGE) VALUES(#{user.userName}, #{user.age})
+    </insert>
+
+    <select id="findByName" resultMap="UserResultMap">
+        SELECT id,user_name,age FROM USER WHERE user_name = #{name}
+    </select>
+
+    <select id="getUserById" resultMap="UserResultMap">
+        SELECT id FROM USER WHERE id = #{value}
+    </select>
+
+    <select id="getUserList" resultMap="UserResultMap">
+        SELECT id,user_name,age FROM USER
+    </select>
+
+    <select id="getUserListByPage" resultMap="UserResultMap">
+        SELECT id,user_name,age FROM USER
+    </select>
+
+    <delete id="deleteUserById">
+        delete from user where id=#{value}
+    </delete>
+
+
+</mapper>

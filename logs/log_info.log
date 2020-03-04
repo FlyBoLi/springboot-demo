@@ -1,0 +1,403 @@
+2020-03-03 21:56:39.182 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 13855 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 21:56:39.189 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 21:56:39.293 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7d8704ef: startup date [Tue Mar 03 21:56:39 CST 2020]; root of context hierarchy
+2020-03-03 21:56:39.879 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 21:56:39.907 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 21:56:40.334 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f5fdcdc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 21:56:40.691 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-03-03 21:56:40.701 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-03-03 21:56:40.709 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 21:56:40.710 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 21:56:40.713 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 21:56:40.800 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 21:56:40.800 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1507 ms
+2020-03-03 21:56:40.944 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 21:56:40.948 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 21:56:40.949 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 21:56:40.949 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 21:56:40.949 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 21:56:41.274 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 21:56:41.469 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 21:56:41.559 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 21:56:41.621 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 21:56:41.622 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 21:56:41.654 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 21:56:41.747 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 21:56:41.907 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 21:56:42.253 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 21:56:42.254 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 21:56:42.257 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 21:56:42.260 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 21:59:11.835 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 13911 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 21:59:11.839 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 21:59:11.985 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5fbe4146: startup date [Tue Mar 03 21:59:11 CST 2020]; root of context hierarchy
+2020-03-03 21:59:12.730 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 21:59:12.754 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 21:59:13.256 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3bd670e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 21:59:13.593 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-03-03 21:59:13.603 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-03-03 21:59:13.610 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 21:59:13.611 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 21:59:13.614 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 21:59:13.712 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 21:59:13.713 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1728 ms
+2020-03-03 21:59:13.844 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 21:59:13.848 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 21:59:13.848 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 21:59:13.848 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 21:59:13.849 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 21:59:14.041 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 21:59:14.142 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 21:59:14.186 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 21:59:14.242 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 21:59:14.243 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 21:59:14.269 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 21:59:14.358 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 21:59:14.497 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 21:59:14.812 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 21:59:14.812 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 21:59:14.816 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 21:59:14.818 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:00:45.252 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 13935 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:00:45.253 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:00:45.322 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e50c791: startup date [Tue Mar 03 22:00:45 CST 2020]; root of context hierarchy
+2020-03-03 22:00:45.891 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:00:45.917 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:00:46.368 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$539065a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:00:46.716 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-03-03 22:00:46.726 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:00:46.735 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:00:46.735 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:00:46.739 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:00:46.829 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:00:46.829 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1507 ms
+2020-03-03 22:00:46.965 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:00:46.970 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:00:46.970 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:00:46.970 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:00:46.970 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:00:47.186 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:00:47.282 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:00:47.325 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:00:47.383 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:00:47.385 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:00:47.414 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:00:47.508 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:00:47.654 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:00:47.992 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:00:47.993 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:00:47.996 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:00:47.999 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:01:05.861 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 13941 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:01:05.863 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:01:05.940 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@399c4be1: startup date [Tue Mar 03 22:01:05 CST 2020]; root of context hierarchy
+2020-03-03 22:01:06.498 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:01:06.524 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:01:06.938 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7387f18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:01:07.288 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-03-03 22:01:07.298 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:01:07.305 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:01:07.306 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:01:07.309 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:01:07.392 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:01:07.392 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1452 ms
+2020-03-03 22:01:07.525 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:01:07.528 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:01:07.529 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:01:07.529 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:01:07.529 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:01:07.729 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:01:07.824 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:01:07.863 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:01:07.917 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:01:07.918 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:01:07.946 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:01:08.040 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:01:08.180 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:01:08.501 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:01:08.502 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:01:08.506 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:01:08.509 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:05:07.748 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 13999 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:05:07.750 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:05:07.813 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@66d18979: startup date [Tue Mar 03 22:05:07 CST 2020]; root of context hierarchy
+2020-03-03 22:05:08.359 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:05:08.391 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:05:08.852 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$42cc1837] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:05:09.197 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-03-03 22:05:09.207 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:05:09.215 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:05:09.215 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:05:09.219 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:05:09.307 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:05:09.307 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1494 ms
+2020-03-03 22:05:09.451 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:05:09.456 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:05:09.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:05:09.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:05:09.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:05:09.667 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:05:09.769 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:05:09.810 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:05:09.865 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:05:09.866 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:05:09.895 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:05:09.987 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:05:10.132 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:05:10.467 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:05:10.468 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:05:10.471 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:05:10.473 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:06:42.431 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 14023 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:06:42.434 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:06:42.505 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5fbe4146: startup date [Tue Mar 03 22:06:42 CST 2020]; root of context hierarchy
+2020-03-03 22:06:43.208 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:06:43.234 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:06:43.670 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3bd670e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:06:44.021 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-03-03 22:06:44.032 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:06:44.040 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:06:44.040 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:06:44.044 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:06:44.134 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:06:44.134 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1629 ms
+2020-03-03 22:06:44.274 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:06:44.278 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:06:44.278 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:06:44.278 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:06:44.279 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:06:44.480 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:06:44.577 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:06:44.618 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:06:44.675 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:06:44.676 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:06:44.707 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:06:44.796 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:06:44.936 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:06:45.271 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:06:45.272 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:06:45.275 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:06:45.278 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:11:26.648 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 14107 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:11:26.653 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:11:26.749 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@66d18979: startup date [Tue Mar 03 22:11:26 CST 2020]; root of context hierarchy
+2020-03-03 22:11:27.379 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:11:27.406 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:11:27.829 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$59094093] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:11:28.195 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-03-03 22:11:28.205 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:11:28.213 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:11:28.213 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:11:28.217 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:11:28.303 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:11:28.303 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1554 ms
+2020-03-03 22:11:28.447 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:11:28.452 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:11:28.452 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:11:28.452 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:11:28.453 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:11:28.658 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:11:28.753 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:11:28.794 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:11:28.854 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:11:28.855 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:11:28.884 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:11:28.975 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:11:29.117 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:11:29.462 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:11:29.463 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:11:29.466 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:11:29.469 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:29:09.125 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 14392 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:29:09.127 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:29:09.202 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5fbe4146: startup date [Tue Mar 03 22:29:09 CST 2020]; root of context hierarchy
+2020-03-03 22:29:09.752 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [jar:file:/Users/mac/.m2/repository/com/demo/libofei/user-api/1.0-SNAPSHOT/user-api-1.0-SNAPSHOT.jar!/META-INF/client/user-customer.xml]
+2020-03-03 22:31:49.676 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 14439 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:31:49.678 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:31:49.749 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17f7cd29: startup date [Tue Mar 03 22:31:49 CST 2020]; root of context hierarchy
+2020-03-03 22:31:50.389 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:31:50.419 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:31:50.871 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6cd5e6c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:31:51.268 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-03-03 22:31:51.282 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:31:51.290 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:31:51.290 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:31:51.294 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:31:51.391 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:31:51.391 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1642 ms
+2020-03-03 22:31:51.535 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:31:51.539 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:31:51.539 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:31:51.539 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:31:51.539 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:31:51.763 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:31:51.885 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:31:51.933 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:31:52.024 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:31:52.025 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:31:52.067 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:31:52.195 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:31:52.388 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:31:52.996 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 22:31:53.274 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17f7cd29: startup date [Tue Mar 03 22:31:49 CST 2020]; root of context hierarchy
+2020-03-03 22:31:53.320 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:31:53.325 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:31:53.353 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String libofei.controller.index.IndexController.helloWorld(java.util.Map<java.lang.String, java.lang.Object>)
+2020-03-03 22:31:53.354 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get/name]}" onto public java.lang.Object libofei.controller.user.UserController.getName(java.lang.String)
+2020-03-03 22:31:53.357 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-03 22:31:53.357 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-03 22:31:53.397 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 22:31:53.398 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 22:31:53.417 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalCatchException
+2020-03-03 22:31:53.840 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2020-03-03 22:31:54.067 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-03 22:31:54.068 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'shopDataSourceBean' has been autodetected for JMX exposure
+2020-03-03 22:31:54.069 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'userDataSourceBean' has been autodetected for JMX exposure
+2020-03-03 22:31:54.075 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'shopDataSourceBean': registering with JMX server as MBean [com.zaxxer.hikari:name=shopDataSourceBean,type=HikariDataSource]
+2020-03-03 22:31:54.076 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'userDataSourceBean': registering with JMX server as MBean [com.zaxxer.hikari:name=userDataSourceBean,type=HikariDataSource]
+2020-03-03 22:31:54.090 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-03 22:31:54.145 [main] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2020-03-03 22:31:54.146 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2020-03-03 22:31:54.282 [main] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.3 (localhost, ID:MacdeMacBook-Pro.local-56438-1583245914149-0:1) is starting
+2020-03-03 22:31:54.286 [main] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.3 (localhost, ID:MacdeMacBook-Pro.local-56438-1583245914149-0:1) started
+2020-03-03 22:31:54.286 [main] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2020-03-03 22:31:54.317 [main] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2020-03-03 22:31:54.373 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:31:54.391 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:31:54.391 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:31:54.396 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2020-03-03 22:31:54.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:31:54.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8089"]
+2020-03-03 22:31:54.407 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17f7cd29: startup date [Tue Mar 03 22:31:49 CST 2020]; root of context hierarchy
+2020-03-03 22:31:54.409 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2020-03-03 22:31:55.406 [main] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2020-03-03 22:31:55.407 [main] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.3 (localhost, ID:MacdeMacBook-Pro.local-56438-1583245914149-0:1) is shutting down
+2020-03-03 22:31:55.413 [main] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.3 (localhost, ID:MacdeMacBook-Pro.local-56438-1583245914149-0:1) uptime 1.287 seconds
+2020-03-03 22:31:55.413 [main] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.3 (localhost, ID:MacdeMacBook-Pro.local-56438-1583245914149-0:1) is shutdown
+2020-03-03 22:31:55.413 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2020-03-03 22:31:55.414 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2020-03-03 22:31:55.415 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:31:55.417 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:31:55.417 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:31:55.418 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:31:55.419 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:32:40.711 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 14451 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:32:40.714 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:32:40.758 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79d8407f: startup date [Tue Mar 03 22:32:40 CST 2020]; root of context hierarchy
+2020-03-03 22:32:41.376 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:32:41.406 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:32:41.829 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2de7bd0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:32:42.175 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-03-03 22:32:42.184 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-03-03 22:32:42.192 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:32:42.192 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:32:42.196 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:32:42.277 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:32:42.277 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1519 ms
+2020-03-03 22:32:42.405 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:32:42.411 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:32:42.412 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:32:42.412 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:32:42.412 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:32:42.614 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:32:42.709 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:32:42.748 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:32:42.806 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:32:42.807 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:32:42.836 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:32:42.927 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:32:43.063 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:32:43.382 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:32:43.383 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:32:43.386 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:32:43.388 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:32:55.716 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 14456 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:32:55.719 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:32:55.772 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4961f6af: startup date [Tue Mar 03 22:32:55 CST 2020]; root of context hierarchy
+2020-03-03 22:32:56.403 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:32:56.428 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:32:56.844 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bef5162b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:32:57.218 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-03-03 22:32:57.235 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-03-03 22:32:57.247 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:32:57.248 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:32:57.252 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:32:57.388 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:32:57.388 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1616 ms
+2020-03-03 22:32:57.521 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:32:57.524 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:32:57.525 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:32:57.525 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:32:57.525 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:32:57.733 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:32:57.842 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:32:57.887 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:32:57.947 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:32:57.948 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:32:57.978 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:32:58.070 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:32:58.211 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:32:58.563 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:32:58.564 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:32:58.567 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:32:58.569 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:35:02.374 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 14502 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:35:02.378 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:35:02.442 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Mar 03 22:35:02 CST 2020]; root of context hierarchy
+2020-03-03 22:35:03.034 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:35:03.058 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:35:03.483 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bef5162b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:35:03.834 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-03-03 22:35:03.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-03-03 22:35:03.851 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:35:03.851 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:35:03.855 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:35:03.940 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:35:03.940 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1498 ms
+2020-03-03 22:35:04.078 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:35:04.083 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:35:04.083 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:35:04.084 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:35:04.084 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:35:04.299 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:35:04.400 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:35:04.442 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:35:04.499 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:35:04.500 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:35:04.529 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:35:04.621 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:35:04.767 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:35:05.115 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:35:05.116 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:35:05.118 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:35:05.121 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-03 22:37:19.126 [main] INFO  libofei.StartClass - Starting StartClass on MacdeMacBook-Pro.local with PID 14560 (/Users/mac/learn_space/springBoot_HelloWorld/target/classes started by mac in /Users/mac/learn_space/springBoot_HelloWorld)
+2020-03-03 22:37:19.130 [main] INFO  libofei.StartClass - No active profile set, falling back to default profiles: default
+2020-03-03 22:37:19.216 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Tue Mar 03 22:37:19 CST 2020]; root of context hierarchy
+2020-03-03 22:37:19.904 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:37:19.930 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-03 22:37:20.411 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc23c658] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 22:37:20.833 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-03-03 22:37:20.848 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-03-03 22:37:20.857 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-03 22:37:20.857 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-03-03 22:37:20.861 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-03-03 22:37:20.963 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-03 22:37:20.964 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1749 ms
+2020-03-03 22:37:21.109 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-03 22:37:21.114 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 22:37:21.114 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 22:37:21.115 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 22:37:21.115 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 22:37:21.372 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Starting...
+2020-03-03 22:37:21.499 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Start completed.
+2020-03-03 22:37:21.550 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:37:21.642 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-03-03 22:37:21.643 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-03 22:37:21.686 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-03 22:37:21.811 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-03 22:37:22.012 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:37:22.437 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 22:37:22.438 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown initiated...
+2020-03-03 22:37:22.440 [main] INFO  com.zaxxer.hikari.HikariDataSource - fang_sqlserver - Shutdown completed.
+2020-03-03 22:37:22.443 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
